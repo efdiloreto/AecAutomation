@@ -1,0 +1,82 @@
+﻿@page "/"
+
+@using AecAutomation.Components
+
+<PageTitle>AEC Automations by Melkor</PageTitle>
+
+<MudGrid>
+    <MudItem xs="12">
+        <MudText Typo="Typo.h2" GutterBottom="true" Align="Align.Center">
+            I Do <span style="color: var(--mud-palette-primary);">AEC AUTOMATIONS</span>
+        </MudText>
+        <MudText Typo="Typo.h5" Class="mb-4" Align="Align.Center" Color="Color.Secondary">
+            Whether it’s a small tweak or a complex tool, I’m here to build solutions that make your life easier.
+        </MudText>
+    </MudItem>
+
+    <!-- Who I Am Section with Avatar -->
+    <MudItem xs="12" Class="mt-6" Align="Center">
+        <MudText Typo="Typo.h4" GutterBottom="true" Color="Color.Tertiary">
+            Who I Am
+        </MudText>
+        <MudAvatar Size="Size.Large" Alt="Eduardo Di Loreto" Class="mb-2">
+            <MudImage Src="images/eduardo.jfif" />
+        </MudAvatar>
+        <MudText Typo="Typo.body1" Align="Align.Center" Class="mb-2">
+            I'm Eduardo Di Loreto, a passionate developer based in Orlando, Florida, with years of experience in creating custom automation tools for the AEC industry. 
+            I specialize in developing plugins and scripts for software like Revit, Tekla, Rhino, SAP2000, and more, all tailored to make your workflows smoother and more efficient. 
+            I'm dedicated to helping you save time, reduce errors, and focus on what you do best.
+        </MudText>
+        <MudText Align="Align.Center">
+            <MudLink Href="https://github.com/efdiloreto" Target="_blank">
+                <MudIcon Icon="@Icons.Custom.Brands.GitHub" />
+            </MudLink>
+            <MudLink Href="https://linkedin.com/in/ediloreto" Target="_blank">
+                <MudIcon Icon="@Icons.Custom.Brands.LinkedIn" />
+            </MudLink>
+            <MudLink Href="mailto:efdiloreto@gmail.com">
+                <MudIcon Icon="@Icons.Material.Filled.Email" />
+            </MudLink>
+        </MudText>
+    </MudItem>
+</MudGrid>
+
+<MudGrid Class="mt-12">
+    <MudItem xs="12">
+        <MudText Align="Align.Center" Typo="Typo.h4" GutterBottom="true" Color="Color.Tertiary">What I Can Do for You</MudText>
+    </MudItem>
+    <MudItem xs="12">
+        <MudStack Row="true" Wrap="Wrap.Wrap" AlignItems="AlignItems.Center" Justify="Justify.Center">
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">Revit</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">AutoCAD</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">Civil 3D</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">Rhino</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">Grasshopper</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">SAP2000</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">ETABS</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">RFEM</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">Navisworks</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Info">Tekla Structures</MudChip>
+            <MudChip T="string" Variant="Variant.Text" Color="Color.Success">...and more!</MudChip>
+        </MudStack>
+    </MudItem>
+    <MudItem xs="12" md="6">
+        <InfoText Title="Custom Plugin & Script Development" Text="I develop tailored solutions for AEC software like Revit, Tekla, Rhino, SAP2000, and more. From streamlining small tasks to creating powerful tools, my goal is to optimize your workflow." />
+    </MudItem>
+    <MudItem xs="12" md="6">
+        <InfoText Title="Consulting" Text="I also offer guidance if you or your team want to create your own automation tools. Let’s find the best way to get things done." />
+    </MudItem>
+</MudGrid>
+
+<MudGrid Class="mt-12">
+    <MudItem xs="12">
+        <MudText Align="Align.Center" Typo="Typo.h4" GutterBottom="true" Color="Color.Tertiary">Why Consider Automation?</MudText>
+    </MudItem>
+    <MudItem xs="12">
+        <MudPaper Class="pa-5 mb-6" Elevation="2">
+            <MudText Typo="Typo.body2">
+                If you’re spending too much time on repetitive tasks, it’s time to automate. Automation allows you to make the software work for you, not the other way around. I can help you tailor the tools to fit your exact needs, whether it's creating or modifying objects, exporting data, or building complex visualizations. This saves time, reduces errors, and lets you focus on what really matters: creativity, analysis, and decision-making.
+            </MudText>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
